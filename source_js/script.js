@@ -22,15 +22,15 @@ $(document).ready(function() {
       $("#modal-content").css("z-index","9999");
       console.log(this.id);
       if(this.id == "player"){
-        $("#modal-content").attr("src","./data/video/player.mp4");
+        $("#modal-content").attr("src","./data/videos/player.mp4");
         $("#modal-content").load();
         $("#modal-content")[0].play();
       }else if(this.id == "graph"){
-        $("#modal-content").attr("src","./data/video/graph.mp4");
+        $("#modal-content").attr("src","./data/videos/graph.mp4");
         $("#modal-content").load();
         $("#modal-content")[0].play();
       }else if(this.id == "head-to-head"){
-        $("#modal-content").attr("src","./data/video/head-to-head.mp4");
+        $("#modal-content").attr("src","./data/videos/head-to-head.mp4");
         $("#modal-content").load();
         $("#modal-content")[0].play();
       }
