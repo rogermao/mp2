@@ -1,0 +1,5 @@
+/*!CK:1462291206!*//*1456192037,*/
+
+if (self.CavalryLogger) { CavalryLogger.start_js(["U2kav"]); }
+
+__d('FBPaymentsFormFieldUtils',['Keys'],function a(b,c,d,e,f,g,h){'use strict';if(c.__markCompiled)c.__markCompiled();var i={stripNonDigits:function(j){return j.replace(/\D/g,'');},stripNonAlpha:function(j){return j.replace(/[^a-zA-Z]/g,'');},formatCardNumber:function(j,k,l,m,n){if(l===h.BACKSPACE||l===h.DELETE){var o=k.split(n).length-1,p=j.split(n).length-1;if(p!==o)return j;}j=this.stripNonDigits(j);j=j.substr(0,m[m.length-1]);var q='';for(var r=1;r<m.length;r++){if(m[r]>j.length||r===m.length-1){q+=j.slice(m[r-1]);break;}q+=j.slice(m[r-1],m[r])+n;}return q;},getUpdatedCursorPosition:function(j,k,l,m){var n=0,o=0;while(n<l&&n<k.length&&o<j.length)if(k[n]===j[o]){n++;o++;}else if(!/^\d+$/.test(k[n])){n++;}else o++;if(j.substr(o,1)===m)o++;return o;}};f.exports=i;},null);

@@ -1,0 +1,5 @@
+/*!CK:188593860!*//*1456187913,*/
+
+if (self.CavalryLogger) { CavalryLogger.start_js(["p+LW7"]); }
+
+__d('P2PListRow.react',['React','cx','invariant'],function a(b,c,d,e,f,g,h,i,j){'use strict';if(c.__markCompiled)c.__markCompiled();var k=h.PropTypes,l=h.createClass({displayName:'P2PListRow',propTypes:{offset:k.oneOf(['large','small']),offsetBottom:k.number,offsetRight:k.number},getDefaultProps:function(){return {offset:'large'};},render:function(){var m=this.props;!(h.Children.count(m.children)===2)?j(0):undefined;var n=m.offset,o=m.offsetRight!==undefined&&m.offsetRight+'px',p=m.offsetBottom!==undefined&&m.offsetBottom+'px';return (h.createElement('div',{className:"_3q6c"+(n==='large'?' '+"_3q6d":'')+(n==='small'?' '+"_3q6o":'')},h.createElement('div',{className:"_3q6p",style:{paddingRight:o,paddingBottom:p}},m.children[0]),h.createElement('div',{className:"_3q6q",style:{paddingBottom:p}},m.children[1])));}});f.exports=l;},null);

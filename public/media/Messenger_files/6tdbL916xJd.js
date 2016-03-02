@@ -1,0 +1,5 @@
+/*!CK:1045797480!*//*1455920911,*/
+
+if (self.CavalryLogger) { CavalryLogger.start_js(["0324e"]); }
+
+__d('P2PCreditCardDetails.react',['Image.react','P2PCreditCard','P2PText.react','React','cx'],function a(b,c,d,e,f,g,h,i,j,k,l){'use strict';if(c.__markCompiled)c.__markCompiled();var m=k.PropTypes,n=k.createClass({displayName:'P2PCreditCardDetails',propTypes:{creditCard:m.instanceOf(i).isRequired},render:function(){var o=this.props.creditCard;return (k.createElement('div',{className:"_1v3z"},k.createElement(h,{className:"_1v41",height:24,src:o.getImage(),width:36}),k.createElement('div',{className:"_1v42"},k.createElement(j,{className:"_1v43",display:'inline',type:'primary'},o.getName()+' '+o.getCategoryName()),k.createElement(j,{display:'inline',type:'primary'},o.getCreditCardNumberFormatted()))));}});f.exports=n;},null);

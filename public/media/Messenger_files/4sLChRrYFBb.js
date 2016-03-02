@@ -1,0 +1,5 @@
+/*!CK:277074708!*//*1456193138,*/
+
+if (self.CavalryLogger) { CavalryLogger.start_js(["SJxQ4"]); }
+
+__d('P2PEncryptedText.react',['Image.react','P2PText.react','React','cx','fbt','xuiglyph'],function a(b,c,d,e,f,g,h,i,j,k,l,m){'use strict';if(c.__markCompiled)c.__markCompiled();var n=j.PropTypes,o=j.createClass({displayName:'P2PEncryptedText',propTypes:{showPasswordProtected:n.bool},getDefaultProps:function(){return {showPasswordProtected:false};},getEncryptedMessage:function(){if(this.props.showPasswordProtected)return l._("Encrypted and password protected.");return l._("Encrypted and private.");},render:function(){return (j.createElement(i,{type:'secondary'},j.createElement('div',{className:"__8t"},j.createElement(h,{src:m({name:'lock',shade:'light'})})),j.createElement('span',{className:"_2pir"},this.getEncryptedMessage())));}});f.exports=o;},null);

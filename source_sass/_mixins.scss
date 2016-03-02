@@ -1,1 +1,26 @@
 // Insert your mixins
+@mixin background-size($size) {
+  -webkit-background-size: $size;
+  -moz-background-size: $size;
+  -o-background-size: $size;
+  background-size: $size;
+}
+
+@mixin translateY($y) {
+    -webkit-transform: translateY($y);
+    -ms-transform: translateY($y);
+    transform: translateY($y);
+}
+
+@mixin transform($x, $y){
+  transform: translate($x, $y);
+  -webkit-transform: translate($x, $y);
+  -ms-transform: translate($x, $y);
+}
+
+@mixin background($size){
+  -webkit-background-size: $size;
+  -moz-background-size: $size;
+  -o-background-size: $size;
+  background-size: $size;
+}

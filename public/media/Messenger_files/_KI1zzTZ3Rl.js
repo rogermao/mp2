@@ -1,0 +1,5 @@
+/*!CK:158863941!*//*1456144945,*/
+
+if (self.CavalryLogger) { CavalryLogger.start_js(["fuft+"]); }
+
+__d('P2PMemoPhotoUploadPreview.react',['BackgroundImage.react','CurrentEnvironment','P2PLoadingMask.react','React','XUICloseButton.react','cx'],function a(b,c,d,e,f,g,h,i,j,k,l,m){'use strict';if(c.__markCompiled)c.__markCompiled();var n=k.PropTypes,o=k.createClass({displayName:'P2PMemoPhotoUploadPreview',propTypes:{attachedPhoto:n.object,photoUploading:n.bool,onRemoveButtonClick:n.func},renderAttachedPhotoPreviewContent:function(){var p=this.props.attachedPhoto;if(!p||!p.url)return null;var q=i.messengerdotcom?286:260;return (k.createElement(h,{backgroundSize:'cover',height:120,src:p.url,width:q}));},render:function(){var p=this.props.attachedPhoto;if(!this.props.photoUploading&&!p)return null;return (k.createElement('div',{className:"_y37"},this.renderAttachedPhotoPreviewContent(),k.createElement(j,{visible:this.props.photoUploading}),k.createElement(l,{className:"_y38",onClick:this.props.onRemoveButtonClick,shade:'light',size:'medium'})));}});f.exports=o;},null);
